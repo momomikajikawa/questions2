@@ -11,7 +11,7 @@ class CreateAuthorsTable extends Migration
      *
      * @return void
      */
-    public function up()
+public function up()
     {
         Schema::create('authors', function (Blueprint $table) {
             $table->id();
@@ -22,6 +22,7 @@ class CreateAuthorsTable extends Migration
             $table->timestamp('updated_at')->useCurrent()->nullable();
         });
     }
+
 
 
 

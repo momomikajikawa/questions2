@@ -29,4 +29,6 @@
   </tr>
   @endforeach
 </table>
+{{ $items->links() }}
 @endsection
+
